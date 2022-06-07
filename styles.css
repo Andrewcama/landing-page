@@ -113,8 +113,6 @@ button {
     margin-left: -270px;
 }
 
-
-
 .attributes,
 .details,
 .weapon,
@@ -124,4 +122,41 @@ button {
     width: 300px;
     margin: 0px 50px;
     gap: 16px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 300px 500px;
+    width: 1000px;
+    justify-content: center;
+    background-image: url("./jpg/background.png");
+    margin-left: -8px;
+}
+
+.text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    display: flex;
+    align-self: flex-end;
+}
+
+.sign {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;    
+}
+
+.box {
+    display: flex;
+    background-color: black;
+    height: 300px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
 }
