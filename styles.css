@@ -1,7 +1,17 @@
+body {
+    background-color: #8B0000;
+    display: flex;
+    flex-direction: column;
+}
+
 li {
     list-style: none;
     display: inline;
     margin: 15px;
+}
+
+div {
+    color: white;
 }
 
 a {
@@ -11,8 +21,8 @@ a {
 
 .header,
 .footer {
-    background-color: #1f2937;
     color: white;
+    
 }
 
 .title {
@@ -49,7 +59,7 @@ a {
 }
 
 button {
-    background-color: #3882F6;
+    background-color: rgba(250, 0, 0, 0.5);
     border-radius: 12px;
     padding: 8px 16px;
     border-color: transparent;
@@ -58,4 +68,60 @@ button {
 .img {
     display: flex;
     align-items: center;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+}
+
+.title2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.attributes img:hover,
+.details img:hover,
+.weapon img:hover {
+    width: 800px;
+    height: auto;
+    transform: scale(1);
+    display: block;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -200px;
+}
+
+.team img:hover {
+    width: 800px;
+    height: auto;
+    transform: scale(1);
+    display: block;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -270px;
+}
+
+
+
+.attributes,
+.details,
+.weapon,
+.team {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0px 50px;
+    gap: 16px;
 }
